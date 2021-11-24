@@ -1,0 +1,161 @@
+
+h1 {
+    font-family: Arial, sans-serif;
+}
+
+p {
+    font-family: "Times New Roman", sans-serif;
+}
+
+body {
+    background-color: #A2A644;
+}
+
+.nav {
+    list-style-type: none;
+    margin: -1em;
+    padding: 10px;
+    border: 10px;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+}
+
+.float {
+    float: left;
+    border: 5px blue;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+li a:hover {
+    background-color: gray;
+}
+
+#tabell {
+    width:200px;
+    height:25px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 8px;
+    background-color:wheat;
+    list-style-type: "\1F44D"; // thumbs up sign
+}
+
+.b {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 15px;
+}
+
+.rød {
+    background-color: red;
+}
+
+.oransje {
+    background-color: orange;
+}
+
+.gul {
+    background-color: yellow;
+}
+
+.grønn {
+    background-color: green;
+}
+
+.blå {
+    background-color: blue;
+}
+.lilla {
+    background-color: purple;
+}
+
+.rød, .oransje, .gul, .grønn, .blå, .lilla {
+    font-size: 19px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#hoved {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    display: grid;
+    border: 1px solid black;
+    background-color: #8F9FBF;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas: "t t t t t t"
+                       "v v v m h h"
+}
+
+#hoved > div {
+    border: 1px solid black;
+}
+
+.toppopp {grid-area : t;
+    height: 30%;
+}
+
+.topp    {grid-area : t;
+    height: 35%;
+}
+
+.venstre {grid-area : v;}
+
+.hoyre   {grid-area : h;}
+
+.mid     {grid-area : m;}
+
+
+.imageleft {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.topp, .venstre, .mid, .hoyre, .toppopp {
+    margin: 55px 10px 10px 10px;
+}
+
+.imgindex {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    background-color: white;
+    border: 2px solid black;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+td, th {
+    border: 1px solid black;
+}
+
+.gronn  {
+    color: darkgreen;
+}
+
+.rod {
+    color: red;
+}
